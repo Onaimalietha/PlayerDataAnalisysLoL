@@ -4,7 +4,7 @@ import pandas as pd
 
 from API_requests import get_player_info, get_puuid, get_match_list, get_match_data
 from data import did_win, cs_count, deathTime, match_time, wards_placed, wards_broken
-from graphs import wr_pie_graph
+#from graphs import wr_pie_graph
 
 st.set_page_config(page_title = "League Dashboard", 
                    layout = 'wide')
