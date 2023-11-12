@@ -1,7 +1,6 @@
 import requests
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 
 #personal (reseta a cada 24h, proposito de desenvolvimento unico)
 api_key = 'RGAPI-13b7db7c-27ef-4050-94d1-3cb5445b6bf7'
