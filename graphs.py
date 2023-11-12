@@ -1,19 +1,18 @@
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import streamlit as st
-from io import BytesIO
 
-def wr_pie_graph(myWinR):
-    fig, wr_plot = plt.subplots(figsize = (2,2))
-    labels = 'win', 'lose'
+##def wr_pie_graph(myWinR):
+#    fig, wr_plot = plt.subplots(figsize = (2,2))
+#    labels = 'win', 'lose'
 
-    wr_plot.pie(myWinR, labels = labels, autopct = '%1.1f%%', shadow = True, startangle = 90)
-    wr_plot.axis('equal')
+#    wr_plot.pie(myWinR, labels = labels, autopct = '%1.1f%%', shadow = True, startangle = 90)
+#    wr_plot.axis('equal')
 
-    buf = BytesIO()
+#    buf = BytesIO()
 
-    #st.pyplot(fig)
-    fig.savefig(buf, format="png")
-    st.image(buf)
+#    #st.pyplot(fig)
+#    fig.savefig(buf, format="png")
+#    st.image(buf)
 
 #def ward_importance(matches_df):
