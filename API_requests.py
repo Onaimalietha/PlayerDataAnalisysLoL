@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 #personal (reseta a cada 24h, proposito de desenvolvimento unico)
-api_key = 'RGAPI-13b7db7c-27ef-4050-94d1-3cb5445b6bf7'
+api_key = 'RGAPI-23b98332-3076-47cf-b6f4-7305279c2ae5'
 
 #API request url para acessar dados de um jogador através do nick
 url = 'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/'
